@@ -1,0 +1,19 @@
+Date: 06/09/2019
+
+1. Two process: Main Process and Renderer Process
+
+2. With every BrowserWindow there will be a renderer window.
+    BrowserWindow runs under renderer process.
+
+3. Main Process can only create BrowserWindow's
+
+4. Any renderer process can communicate with other renderer process
+    via Main Process.
+
+5. Each renderer process runs on sandbox environment with so many security checks.
+
+
+
+next Terget: 
+native modules - https://electronjs.org/docs/tutorial/using-native-node-modules
+security - https://electronjs.org/docs/tutorial/security
